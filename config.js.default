@@ -1,0 +1,7 @@
+const config = {
+    accessToken: 'xxx', //line token
+    serviceAccountPath: './serviceAccount.json', //firebase
+    databaseURL: '' //firebase
+};
+
+module.exports = config;

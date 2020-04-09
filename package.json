@@ -1,0 +1,37 @@
+{
+  "name": "node-line-notify",
+  "version": "1.0.0",
+  "description": "demo for request line-notify api",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kantinanm/node-line-notify.git"
+  },
+  "keywords": [
+    "line-notify-api"
+  ],
+  "author": "Kantinan Makmee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kantinanm/node-line-notify/issues"
+  },
+  "homepage": "https://github.com/kantinanm/node-line-notify#readme",
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^8.10.0",
+    "firebase-functions": "^3.5.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
